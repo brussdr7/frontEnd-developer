@@ -1,0 +1,10 @@
+Protocolos de comunicacion en internet
+
+-HTTP: portocolo de transferencia de hypertexto
+-URL: localizador de recursos uniforme
+-HTML: lenguaje de marcado de hypertexto
+-CSS: hojas de estilo en cascada
+
+-DOM: document Object Model
+-CSSOM: document Object Model del CSS
+RENDER TREE: es la representacion grafica del DOM y el CSSOM
