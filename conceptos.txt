@@ -27,3 +27,4 @@ OOCSS: hojas de estilo orientada a objetos
 BEM: block element modify
 SMACSS: arquitectura de CSS escalable y modular
 ITCSS: trinagulo invertido de CSS
+Atomic dising
