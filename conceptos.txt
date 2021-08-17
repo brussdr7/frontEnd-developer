@@ -1,4 +1,4 @@
-Protocolos de comunicacion en internet
+*Protocolos de comunicacion en internet
 
 -HTTP: portocolo de transferencia de hypertexto
 -URL: localizador de recursos uniforme
@@ -8,3 +8,22 @@ Protocolos de comunicacion en internet
 -DOM: document Object Model
 -CSSOM: document Object Model del CSS
 RENDER TREE: es la representacion grafica del DOM y el CSSOM
+
+*Arquitecturas CSS
+objetivos:
+-predecible
+-reutilizable
+-mantenible
+-escalable
+
+Buenas practicas:
+-establecer reglas
+-explicar la estructura base
+-Establecer estandares de codificacion
+-evitar largas hojas de estilo
+-documentacion
+
+OOCSS: hojas de estilo orientada a objetos
+BEM: block element modify
+SMACSS: arquitectura de CSS escalable y modular
+ITCSS: trinagulo invertido de CSS
