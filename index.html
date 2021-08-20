@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
     <title>Curso FrontEnd developer</title>
 </head>
@@ -12,36 +13,55 @@
 <body>
     <header>
         <div class="image-container">
-            <img src="https://raw.githubusercontent.com/platzi/PlatziVideo/feature/react/src/assets/static/logo-platzi-video-BW2.png" alt="platzi-video">
-        </div>
-        <div class="list-header">
-            <ul>
-                <li>
-                    Cuenta
-                </li>
-                <li>
-                    cerrar cesion
-                </li>
-            </ul>
+            <img src="https://raw.githubusercontent.com/platzi/PlatziVideo/feature/react/src/assets/static/logo-platzi-video-BW2.png"
+                alt="platzi-video">
         </div>
     </header>
-    <div class="pincipal-seccion">
-        <p>Aqui encontraras el contenido del sitio</p>
-    </div>
-    <footer>
-        <ul>
-            <li>Contactanos</li>
-            <li>politica de privacidad</li>
-            <li>terminos y condiciones</li>
-        </ul>
+    <section class="login">
+        <div class="login__container">
+            <h2>Inicia sesión</h2>
+            <form class="login__container--form" action="">
+                <input class="input" type="text" placeholder="Correo">
+                <input class="input" type="password" placeholder="Contraseña">
+                <button class="button" type="button">Iniciar sesión</button>
+                <div class="login__container--remember-me">
+                    <label for="cbox1">
+                        Recuerdame
+                        <input type="checkbox" id="cbox1" value="checkbox">
+                    </label>
+                    <a href="/">Olvide mi contraseña</a>
+                </div>
+            </form>
+            <div class="login__container--social-media">
+                <div>
+                    <img src="./images/icons8-logo-de-google-30.png" alt="">
+                    Inicia sesión con Google
+                </div>
+                <div>
+                    <img src="./images/icons8-twitter-30.png" alt="">
+                    Inicia sesión con Twitter
+                </div>
+            </div>
+            <div class="login__container--register">
+                <p>
+                    No tienes ninguna cuenta
+                    <a href="">Registrate</a>
+                </p>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+       <a href="">Términos de uso</a>
+       <a href="">Declaración de privacidad</a>
+       <a href="">Centro de ayida</a>
     </footer>
-    <div class="ejemplos">
+    <!-- <div class="ejemplos">
         <p>Animale</p>
         <p>🐯 tigre</p>
         <p>🦊 zorro</p>
         <p>🐒 chango</p>
         <p>🐙 pulpo</p>
-    </div>
+    </div> -->
 </body>
 
 </html>
