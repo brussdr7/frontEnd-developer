@@ -1,4 +1,4 @@
-Protocolos de comunicacion en internet
+*Protocolos de comunicacion en internet
 
 -HTTP: portocolo de transferencia de hypertexto
 -URL: localizador de recursos uniforme
@@ -8,3 +8,74 @@ Protocolos de comunicacion en internet
 -DOM: document Object Model
 -CSSOM: document Object Model del CSS
 RENDER TREE: es la representacion grafica del DOM y el CSSOM
+
+*Arquitecturas CSS
+objetivos:
+-predecible
+-reutilizable
+-mantenible
+-escalable
+
+Buenas practicas:
+-establecer reglas
+-explicar la estructura base
+-Establecer estandares de codificacion
+-evitar largas hojas de estilo
+-documentacion
+
+OOCSS: hojas de estilo orientada a objetos
+BEM: block element modify
+SMACSS: arquitectura de CSS escalable y modular
+ITCSS: trinagulo invertido de CSS
+Atomic dising
+
+*Tipos de display:
+
+Block: Pensemos en este display como el flujo
+que tenemos cada vez que escribimos, quiere 
+decir que los elementos se vizualizan uno debajo
+del otro.
+
+Inline: toodos los elementos se vizualizaran uno
+al lado del otro de izquierda a derecha
+
+Inline-Block: es similar a display inline sin embargo
+respeta el width y el height que se le asignen a los
+elementos
+
+None: oculta elmentos sin eliminarlos del DOM
+
+Table: los elementos en este display se comportan
+como elemento <table>
+
+Flex: es indispensable la propiedad display: flex 
+en el elemento padre, que por defecto alineara los
+elementos hijos de izquierda a derecha.
+Tambien suele acompañarse de propiedades como 
+justify-content y aling-items.
+
+Grid: puedes ajustar como un modelo de caja cada
+componente
+
+*Posicionamiento en CSS:
+
+Relative: el elemento se coloca en relacion a su 
+posicion normal.
+
+Absolute: se posicionan en relacion al elemento
+relativo mas cercano.
+
+Fixed: el elemento se ubica en relacion con la
+ventana del navegador
+
+Stiky: el elemento se posiciona en funcion del
+desplazamiento del usuario.
+
+Static: los elementos HTML son staticos por defecto
+siguen el flujo normal de la pagina
+
+Initial: ubican el elemento en la posicion que tienen
+de forma predeterminada
+
+Inherital: como su nombre lo indica este valor hereda
+esta propiedad de su elemento padre.
