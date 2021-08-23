@@ -21,9 +21,18 @@
   color: purple;
 }
 
+.login, .login__container--social-media > div, .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 body {
   margin: 0;
-  font-family: 'Mulish', sans-serif;
+  font-family: "Mulish", sans-serif;
 }
 
 header {
@@ -41,12 +50,6 @@ header {
 .login {
   background: -webkit-gradient(linear, left top, left bottom, from(#21c08b), to(#ab88ff));
   background: linear-gradient(#21c08b, #ab88ff);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -113,12 +116,6 @@ header {
 }
 
 .login__container--social-media > div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   margin-bottom: 10px;
   color: white;
 }
@@ -153,7 +150,7 @@ header {
   margin-bottom: 20px;
   padding: 0 20px;
   outline: none;
-  font-family: 'Mulish', sans-serif;
+  font-family: "Mulish", sans-serif;
   color: white;
   height: 50px;
 }
@@ -182,7 +179,7 @@ header {
   cursor: pointer;
   font-size: 16px;
   font-weight: bold;
-  font-family: 'Mulish', sans-serif;
+  font-family: "Mulish", sans-serif;
   height: 50px;
   letter-spacing: 1px;
   margin: 10px 0px;
@@ -192,12 +189,6 @@ header {
   background-color: #ab88ff;
   width: 100%;
   height: 100px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .footer a {

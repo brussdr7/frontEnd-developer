@@ -16,9 +16,17 @@
     font-size: 20px;
     color: purple;
 }
+
+$primary-font: 'Mulish', sans-serif;
+
+%display-flex {
+    display: flex;
+    align-items: center;
+}
+
 body{
     margin: 0;
-    font-family: 'Mulish', sans-serif;
+    font-family: $primary-font;
 }
 header {
     background-color: #21c08b;
@@ -32,8 +40,7 @@ header {
 }
 .login {
     background: linear-gradient(#21c08b, #ab88ff);
-    display: flex;
-    align-items: center;
+    @extend %display-flex;
     justify-content: center;
     flex-direction: column;
     padding: 0px 30px;
@@ -73,8 +80,7 @@ header {
     text-decoration: underline;
 }
 .login__container--social-media > div {
-    display: flex;
-    align-items: center;
+    @extend %display-flex;
     margin-bottom: 10px;
     color: white;
 }
@@ -104,7 +110,7 @@ header {
     margin-bottom: 20px;
     padding: 0 20px;
     outline: none;
-    font-family: 'Mulish', sans-serif;
+    font-family: $primary-font;
     color: white;
     height: 50px;
 }
@@ -119,7 +125,7 @@ header {
     cursor: pointer;
     font-size: 16px;
     font-weight: bold;
-    font-family: 'Mulish', sans-serif;
+    font-family: $primary-font;
     height: 50px;
     letter-spacing: 1px;
     margin: 10px 0px;
@@ -128,8 +134,7 @@ header {
     background-color: #ab88ff;
     width: 100%;
     height: 100px;
-    display: flex;
-    align-items: center;
+    @extend %display-flex;
 }
 .footer a {
     color: white;
